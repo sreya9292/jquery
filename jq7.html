@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		div
+		{
+			background-color: blue;
+			height: 100px;
+			width:100px;
+			text-align: center;
+			position: relative;
+			line-height: 100px;
+			margin: 100px auto 0;
+		}
+	</style>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('.rect').animate({'left':'250px'});
+			});
+            });
+		
+		
+
+	</script>
+</head>
+<body>
+	<button>start animation</button>
+<div class="rect">
+	BOX
+</div>
+</body>
+</html>

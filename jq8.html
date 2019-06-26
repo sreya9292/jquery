@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#p1').css({'background-color':'green'});
+			$('#p2').css({'background-color':'blue'});
+			$('#p3').css({'background-color':'red'});
+			$('#p4').css({'background-color':'white'});
+			$('button').click(function(){
+				$('p').css({'background-color':'yellow'});
+				$('#p1').css({'font-size':'30px'});
+				$('#p2').css({'font-size':'30px'});
+				$('#p3').css({'font-size':'30px'});
+				$('#p4').css({'font-size':'30px'});
+			});
+		});
+
+	</script>
+</head>
+<body>
+<h3>javascript css</h3>
+<p id="p1">paragraph 1</p>
+<p id="p2">paragraph 2</p>
+<p id="p3">paragraph 3</p>
+<p id="p4">paragraph 4</p>
+<button type="button" value="change color" id="btn" onclick="click()">Change color</button>
+</body>
+</html>
